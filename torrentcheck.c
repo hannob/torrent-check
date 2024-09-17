@@ -62,6 +62,8 @@ typedef long long INT64;
 #define DIR_SEPARATOR '/'
 #endif
 
+int beStepOver(BYTE*, int, int);
+
 typedef struct {
 	char* filePath;
 	INT64 numBytes;
